@@ -37,4 +37,3 @@ switch(day) {
        //this block will run if no condition matches
        console.log('There is no such day');
 }
-
