@@ -1,17 +1,20 @@
-const bicycle = {
-    bell: function() {
-        return "Ring, ring! Watch out, please!"
+class Bird {
+    useWings() {
+        console.log("Flying!")
     }
 }
-const door = {
-    bell: function() {
-        return "Ring, ring! Come here, please!"
+class Eagle extends Bird {
+    useWings() {
+        super.useWings()
+        console.log("Barely flapping!")
     }
 }
-
-function ringTheBell(thing) {
-    console.log(thing.bell())
+class Penguin extends Bird {
+    useWings() {
+        console.log("Diving!")
+    }
 }
-
-ringTheBell(bicycle);
-ringTheBell(door);
+var baldEagle = new Eagle();
+var kingPenguin = new Penguin();
+baldEagle.useWings(); // "Flying! Barely flapping!"
+kingPenguin.useWings(); // "Diving!"
