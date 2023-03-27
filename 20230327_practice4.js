@@ -11,7 +11,7 @@ class Person {
     }
 
     doSomethingFun() {
-        this.energy -= 10;
+        this.energy -= 30;
     }
 }
 
@@ -24,13 +24,14 @@ class Worker extends Person {
     }
 
     goToWork() {
-        this.xp += 10;
+        this.xp += 30;
+        console.log("xp is adding up during work:" + this.xp);
     }
 }
 
 // Task 3: Code an intern object, run methods
 function intern() {
-    var intern = new Worker('Bob', 21, 110, 0, 10);
+    var intern = new Worker('Bob', 21, 110, 20, 10);
     intern.goToWork();
     return intern;
 }
@@ -39,5 +40,8 @@ function intern() {
 function manager() {
     var manager = new Worker('Alice', 30, 120, 100, 30);
     manager.doSomethingFun();
+    
     return manager;
 }
+console.log(intern.apply());
+console.log(manager.apply());
