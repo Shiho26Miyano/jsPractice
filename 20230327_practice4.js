@@ -6,7 +6,7 @@ class Person {
         this.energy = energy;
     }
 
-    slep() {
+    sleep() {
         this.energy += 10;
     }
 
