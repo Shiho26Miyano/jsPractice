@@ -45,4 +45,3 @@ function manager() {
 }
 console.log(intern.apply());
 console.log(manager.apply());
-
