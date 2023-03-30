@@ -1,3 +1,4 @@
+// difference between for of loops and for in loops
 // Task 1
 var dairy = ['cheese', 'sour cream', 'milk', 'yogurt', 'ice cream', 'milkshake'];
 
@@ -34,3 +35,4 @@ function animalCan() {
 }
 
 animalCan()
+
