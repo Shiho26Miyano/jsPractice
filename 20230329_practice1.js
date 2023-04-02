@@ -35,4 +35,3 @@ function animalCan() {
 }
 
 animalCan()
-
