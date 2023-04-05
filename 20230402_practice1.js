@@ -62,3 +62,4 @@ function addTaxToPrices(taxRate, ...itemsBought){
 let shoppingCart = addTaxToPrices(1.1,10,20,30,40,51,60);
 console.log(shoppingCart);
 
+
