@@ -37,3 +37,4 @@ function handleClicks() {
     }
 }
 h1.addEventListener('click', handleClicks);
+
