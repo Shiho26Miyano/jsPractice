@@ -1,7 +1,7 @@
-function Heading() {
+function Heading(props) {
     return (
-        <h1>Does it really work</h1>
-        )
-    }
-    
-    export default Heading;
+        <h1>Hello, {props.firstName}</h1>
+    )
+}
+
+export default Heading;
