@@ -1,5 +1,4 @@
 console.log('Iam the best')
-
 // Given variables
 const dishData = [
     {
