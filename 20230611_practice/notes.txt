@@ -1,0 +1,14 @@
+notes
+
+front-end 9 courses
+
+Introduction to Front-End Development : Done  
+
+Programming with JavaScript done 
+
+Version Control done
+
+HTML and CSS in depth not done https://www.coursera.org/learn/html-and-css-in-depth/home/week/3
+
+React Basics not done https://www.coursera.org/learn/react-basics/home/week/1
+
